@@ -1,6 +1,6 @@
 <?php
 
-$to      = 'cis217@gmail.com';
+$to      = 'pytho834@gmail.com';
 $subject = 'TEST';
 $message = $_GET['orderUrl'];
 $headers = 'From: cis217-4.patrick-m.com' . "\r\n" .
