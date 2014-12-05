@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         versionCode="1"
         version="1.0">
-    <name>FinalProject</name>
+    <name>cis217_Final</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
