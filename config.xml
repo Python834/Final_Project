@@ -63,6 +63,7 @@
     <gap:plugin name="org.apache.cordova.network-information"  />
     <gap:plugin name="org.apache.cordova.splashscreen"  />
     <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+    <gap:plugin name="org.apache.cordova.vibration" />
     <content src="index.html" />
     <access origin="*" subdomains="true"/>
 </widget>
