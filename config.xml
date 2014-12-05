@@ -65,6 +65,7 @@
     <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     <gap:plugin name="org.apache.cordova.vibration" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <plugin name="Notification" value="org.apache.cordova.Notification"/>
     <content src="index.html" />
     <access origin="*" subdomains="true"/>
 </widget>
