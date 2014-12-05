@@ -14,6 +14,8 @@ $('#orderLink').on('click', function(event){
     showAlert()
 });
 
+// Wait for device API libraries to load
+//
 document.addEventListener("deviceready", onDeviceReady, false);
 
 // device APIs are available
@@ -22,16 +24,24 @@ function onDeviceReady() {
     // Empty
 }
 
-// alert dialog dismissed
-function alertDismissed() {
-    // do something
-}
-
+// Show a custom alert
+//
 function showAlert() {
     navigator.notification.alert(
         'You are the winner!',  // message
-        alertDismissed,         // callback
         'Game Over',            // title
         'Done'                  // buttonName
     );
+}
+
+// Beep three times
+//
+function playBeep() {
+    navigator.notification.beep(3);
+}
+
+// Vibrate for 2 seconds
+//
+function vibrate() {
+    navigator.notification.vibrate(2000);
 }
