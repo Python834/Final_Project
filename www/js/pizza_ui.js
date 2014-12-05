@@ -45,3 +45,13 @@ function playBeep() {
 function vibrate() {
     navigator.notification.vibrate(2000);
 }
+
+document.addEventListener('deviceready', function () {
+    window.plugin.email.open({
+        to:      ['pytho834@gmail.com'],
+        cc:      [''],
+        bcc:     [''],
+        subject: 'Greetings',
+        body:    'How are you? Nice greetings from Leipzig'
+    });
+}, false);
